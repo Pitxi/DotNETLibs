@@ -6,7 +6,7 @@ A bunch of general libraries thought to ease the development of .NET application
 
 * [SearchFilters](SearchFilters/README.md) IQueryable extensions to allow complex Data filtering.
 
-# Copyright information
+## Copyright information
 
 SearchFilters Copyright &copy; 2023 Javier Campón Pichardo
 
