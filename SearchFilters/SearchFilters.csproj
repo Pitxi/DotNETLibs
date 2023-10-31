@@ -3,13 +3,18 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <FileVersion>1.0.1.1</FileVersion>
-        <InformationalVersion>1.0.0</InformationalVersion>
-        <Version>1.0.0</Version>
+        <AssemblyVersion>1.0.2</AssemblyVersion>
+        <FileVersion>1.0.2</FileVersion>
+        <InformationalVersion>1.0.2</InformationalVersion>
+        <Version>1.0.2</Version>
         <Title>Search Filters Library</Title>
         <Description>This library extends IQueryable to ease the use of complex data filtering with Entity Framework Core.</Description>
         <Copyright>SearchFilters Copyright (C) 2023 Javier Campón Pichardo</Copyright>
         <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/Pitxi/DotNETLibs</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Pitxi/DotNETLibs</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>.NET Library </PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 </Project>

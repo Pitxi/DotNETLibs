@@ -147,7 +147,7 @@ public static class FilterQueryExtensions
             DataFilter<TProperty>?               filter,
             FilterOptions?                       options = null)
     {
-        if (filter is null)
+        if (filter is null || !filter.Values.Any())
         {
             return query;
         }
