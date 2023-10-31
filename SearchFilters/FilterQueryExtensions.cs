@@ -147,7 +147,9 @@ public static class FilterQueryExtensions
             DataFilter<TProperty>?               filter,
             FilterOptions?                       options = null)
     {
-        if (filter is null || !filter.Values.Any())
+        var canHaveEmptyValues = new[] { FilterComparisons.IsOneOf, FilterComparisons.IsNotOneOf };
+
+        if (filter is null || (!filter.Values.Any() && !canHaveEmptyValues.Contains(filter.ComparisonName)))
         {
             return query;
         }
