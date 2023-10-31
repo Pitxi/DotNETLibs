@@ -16,5 +16,6 @@
         <RepositoryType>git</RepositoryType>
         <PackageTags>.NET Library </PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <LangVersion>default</LangVersion>
     </PropertyGroup>
 </Project>
